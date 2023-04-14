@@ -1,0 +1,123 @@
+body {
+    background-color: #dceaea;
+    margin: 20px;
+}
+
+.heading{
+    background-color: #4682B4;
+    height: 60px;
+}
+
+#campus-icon {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#students-image {
+    height: 300px;
+    width: 1144px;
+}
+
+.content{
+    padding: 10px;
+}
+
+#grad-image {
+    height: 300px;
+    width: 1144px;
+}
+
+#quote {
+    background-color: #333333;
+    color: white;
+    margin: auto;
+    width: 60%;
+    border: 5px;
+    padding: 10px;
+}
+
+.search {
+    display: block;
+    background-color: lightslategray;
+    color: white;
+    margin: auto;
+    width: 60%;
+    margin-top: 10px;
+    border: 5px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#search-input {
+    width: 40%;
+}
+
+#search-details {
+    background-color: skyblue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 5px;
+    padding: 10px;
+    margin: auto;
+    border: 5px;
+}
+
+.comments-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 5px;
+    padding: 10px;
+    margin: auto;
+    border: 5px;
+}
+
+#user-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    padding: 10px;
+    margin: auto;
+    border: 5px;
+}
+
+#subscribe {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    min-height: 30px;
+    border-radius: 0.25em
+}
+
+input {
+    min-height: 30px;
+}
+
+#user-name {
+    width: 20%;
+    display:inline-block;
+}
+
+#user-email {
+    width: 20%;
+    display:inline-block;
+}
+
+form {
+    border-radius: 0.25em
+}
