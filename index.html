@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Search</title>
+    <link rel="stylesheet" href="./index.css">
+    <script defer type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <!--Add a div for the header-->
+    <div class="heading">
+        <h2 class="ui-header">
+            <div class="content">
+                <span class="title"><strong>University Search App</strong></span>
+                <img id="campus-icon" src="./icon-campus.png" alt="campus icon">
+            </div>
+        </h2>
+    </div>
+    <div>
+        <img id="students-image" src="./study-image.png" alt="students studying">
+    </div>
+    <!--Add div for quote-->
+    <div id="quote">
+        <i><p>"THE CONTENT OF A BOOK HOLDS THE POWER OF EDUCATION AND IT IS WITH THIS POWER THAT WE CAN SHAPE OUR FUTURE AND CHANGE LIVES."<br><br>Malala Yousafzai</p></i>
+    </div>
+    <!--Add search form-->
+    <div class="search">
+        <!--<div><strong>Take the next step to further your education.</strong></div>-->
+        <form id="search-form" class="search-form">
+            <legend><strong>Take the next step to further your education.</strong></legend>
+            <input id="search-input" name="search-uni" type="text" placeholder="search university of interest">
+            <button id="search-button">Search</button>
+        </form>
+    </div>
+    <!--Display search results-->
+    <div id="search-details">
+        Search results should go here. <br>Name: <br>Country: <br>URL:
+    </div>
+    <!--Leave your comments about the university-->
+    <div class="comments-section">
+        <div id="comments">
+            <li>Comments will come here</li>
+            <li>Remove these</li>
+        </div>
+        <form id="comments-form" class="comments-form">
+            <input 
+                id="comment-input" 
+                name="comment" 
+                type="text"
+                placeholder="Leave a comment..."
+                >
+            <button id="comment-button">Comment</button>
+        </form>
+    </div>
+    <!--Allow user leave email address for further communication-->
+    <!--Post this to the server-->
+    <div id="user-info">
+        <div id="subscribe"><strong>Want to hear from us?</strong></div>
+        <form id="user-address">
+            <input id="user-name" type="text" placeholder="Enter your name">
+            <input id="user-email"  type="email" placeholder="Enter your email">
+            <button id="submit-button">REGISTER NOW</button>
+        </form>
+    </div>
+    <!--Add an image at the bottom of the page-->
+    <div id="final-image">
+        <img id="grad-image" src="./grad.jpg" alt="graduating students">
+    </div>
+</body>
+</html>
